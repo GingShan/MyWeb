@@ -1,0 +1,98 @@
+@charset "UTF-8";
+.navbar {
+    padding: 0;
+    width: 100%;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    background-color: #c4c4c4;
+    color: #000;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/*.navbar .navbar-brand*/
+.navbar .navbar-brand {
+    padding: 10px 2%;
+}
+
+.navbar .navbar-brand img {
+    height: 2rem;
+}
+
+
+/*.navbar .navbar-Link*/
+
+.navbar .navbar-Link {
+    display: flex;
+}
+
+.navbar .navbar-Link .btn {
+    flex: 1;
+    font-size: 1.2rem;
+    min-width: 150px;
+    color: #333;
+    padding: 20px 0;
+    text-align: center;
+    border-left: 1px solid rgb(0 0 0 / 10%);
+}
+
+.navbar .navbar-Link .btn i {
+    display: none;
+}
+
+.navbar .navbar-Link .btn span {
+    display: block;
+    font-size: 1rem;
+}
+
+
+
+/*------Sticky------*/
+
+.navbar {
+    opacity: 0;
+    transform: translateY(-10px);
+    transition: all 0.5s;
+}
+
+.navbar.Sticky {
+    opacity: 1;
+    transform: translateY(0px);
+    transition: all 0.5s;
+}
+
+
+@media(max-width: 991px) {
+    .navbar {
+        box-shadow: 0px -6px 20px rgb(0 0 0 / 10%);
+        bottom: 0;
+        top: auto;
+    }
+
+    .navbar .navbar-brand {
+        display: none;
+    }
+
+    .navbar .navbar-Link {
+        width: 100%
+    }
+
+    .navbar .navbar-Link .btn {
+        min-width: auto;
+        font-size: 14px;
+        padding: 10px 0;
+        padding-bottom: 20px
+    }
+
+    .navbar .navbar-Link .btn i {
+        display: block
+    }
+
+    .navbar .navbar-Link .btn span {
+        display: none
+    }
+}

@@ -1,0 +1,10 @@
+@media screen and (max-width:991px){
+    .percent {
+        bottom: 15%;
+    }
+    .skill img {
+        /* width: 50px; */
+        width: auto !important;
+        height: 3rem;
+    }
+}
