@@ -193,7 +193,6 @@ section.page{
 section.page .pageBox{
     width: 90%;
     margin: 0 auto;
-    padding-top: 1%;
 }
 
 h1.title,h2.subtitle{
