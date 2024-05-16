@@ -25,14 +25,19 @@ body {
 
 /*文字樣式*/
 
+p,span{
+    margin: 0;
+}
 
 a,
 .btn {
+    color: #333;
     text-decoration: none;
     border-radius: 0;
 }
 
 a:hover {
+    color: #333;
     text-decoration: none;
 }
 
