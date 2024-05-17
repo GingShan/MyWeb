@@ -12,7 +12,8 @@
 }
 
 .skill img{
-    width: 8vw;
+    width: auto;
+    height: 8rem;
     margin: 0 auto;
 }
 
