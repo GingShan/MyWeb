@@ -2,9 +2,26 @@
     .percent {
         bottom: 15%;
     }
+
+    .item{
+        margin-bottom: 10%;
+    }
+
     .skill img {
         /* width: 50px; */
         width: auto !important;
-        height: 3rem;
+        height: 5rem;
+    }
+
+    .CaseName{
+        font-size: .9rem;
+    }
+
+    .CaseName::before{
+        width: 4vw;
+    }
+
+    .page02 .item{
+        margin-bottom: 10%;
     }
 }
